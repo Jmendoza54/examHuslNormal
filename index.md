@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen HUSL</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="cont flex-row">
+            <img src="img/placeholder-logo.png" alt="Logo PlaceHolder" class="logo">
+
+            <nav class="nav-menu">
+                <ul class="menu flex-row">
+                    <li class="has-dropdown main-li">
+                        <a href="javascript:void(0)" class="menu-link">
+                            <img src="img/right-arrow.png" class="arrow-mobile">
+                            Industries
+                        </a>
+                        <ul class="submenu">
+                            <img src="img/arrow-left.png" class="arrow close-submenu">
+                            <li>
+                                <a href="javascript:void(0)" class="menu-link">
+                                    <img src="img/right-arrow.png" class="arrow">
+                                    Financial Services
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="menu-link">
+                                    <img src="img/right-arrow.png" class="arrow">
+                                    Healthcare
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="menu-link">
+                                    <img src="img/right-arrow.png" class="arrow">
+                                    Government
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+            
+                    <li class="main-li"><a href="javascript:void(0)" class="menu-link"><img src="img/right-arrow.png" class="arrow-mobile">Solutions</a></li>
+                    <li class="main-li"><a href="javascript:void(0)" class="menu-link"><img src="img/right-arrow.png" class="arrow-mobile">Enterprise Class AI</a></li>
+                    <li class="main-li"><a href="javascript:void(0)" class="menu-link"><img src="img/right-arrow.png" class="arrow-mobile">Knowledge Center</a></li>
+                    <li class="main-li"><a href="javascript:void(0)" class="menu-link"><img src="img/right-arrow.png" class="arrow-mobile">Company</a></li>
+                  </ul>
+
+                  <div class="demo mobile">
+                    <div class="btn-demo">
+                        Request a Demo
+                    </div>
+                </div>
+            </nav>
+
+            <div class="icon-search">
+                <img src="img/search.png" alt="" class="icon">
+            </div>
+
+            <div class="demo desktop">
+                <div class="btn-demo">
+                    Request a Demo
+                </div>
+            </div>
+
+            <div class="menu-activador">
+				<a href="#">
+					<span class="menu-activador-linea"></span>
+					<span class="menu-activador-linea"></span>
+					<span class="menu-activador-linea"></span>
+				</a>
+			</div>
+        </div>
+
+        <div class="search">
+            <div class="cont">
+                <input type="text" name="search" id="search" placeholder="Search">
+                <img src="img/close.png" alt="" class="close-search">
+            </div>
+        </div>
+        
+    </header>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
